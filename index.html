@@ -213,15 +213,17 @@
             </div>
             <!-- Project One Row-->
             <div class="text-center skills mb-3">Featured Projects</div>
+
+
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" id="projects">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/imgame.png" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <a href="https://github.com/ksquaredcoding/im-game" target="_blank">
-                                    <h4 class="text-white">Im Game</h4>
-                                </a>
+                                <!-- <a href="https://github.com/ksquaredcoding/im-game" target="_blank"> -->
+                                    <h4 class="text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Im Game</h4>
+                                <!-- </a> -->
                                 <p class="mb-0 text-white-50">A Full-Stack application done with Vue.Js framework and
                                     Node for the back end. Worked in a group of 4 other people implementing Agile/SCRUM
                                 </p>
@@ -231,6 +233,8 @@
                     </div>
                 </div>
             </div>
+
+
             <!-- Project Two Row-->
             <div class="row gx-0 justify-content-center">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/keepr.png" alt="..." /></div>
@@ -372,6 +376,29 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 </body>
 
 </html>
