@@ -68,9 +68,11 @@
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
-
+.hoverable {
+  cursor: pointer;
+}
 .projects{
-  min-height: 400px;
+  min-height: 345px;
 }
 *,
 *::before,
